@@ -1,6 +1,6 @@
-length=int(input("The value of length="))
-breadth=int(input("The value of breadth="))
-if length == breadth:
-    print("Its a square")
+salary=int(input("Current Salary:"))
+yearsWorked=int(input("No. of years worked there:"))
+if yearsWorked >= 5:
+    print("New salary:",salary +1000)
 else:
-    print("it is not a square")
+    print("New salary:", salary)
