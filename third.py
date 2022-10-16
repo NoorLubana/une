@@ -1,6 +1,9 @@
-salary=int(input("Current Salary:"))
-yearsWorked=int(input("No. of years worked there:"))
-if yearsWorked >= 5:
-    print("New salary:",salary +1000)
-else:
-    print("New salary:", salary)
+x=5
+print(type(x))
+y=8.9
+print(type(y))
+a=float(x)
+a=34
+b=78
+c=a+b
+print(c)
