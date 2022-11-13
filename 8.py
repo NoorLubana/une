@@ -1,6 +1,7 @@
-list=[]
-cars=["tata","nano","alto","jeep"]
-for i in cars:
-    if "a" in i:
-        list.append(i)
-print(list)
+total_lecture=int(input("Total lectures:"))
+attended_lectures=int(input("Attended lectures:"))
+eligibility_factor=(attended_lectures/total_lecture)*100
+if eligibility_factor>=75:
+    print("good")
+else:
+    print("not good")
