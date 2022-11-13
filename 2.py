@@ -1,3 +1,6 @@
-def name(firstname):
-    print("My name is",firstname)
-name("Prabhnoor")
+x=5
+print(type(x))
+y=7.5
+print(type(y))
+z= x+y
+print(z)
