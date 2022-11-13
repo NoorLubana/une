@@ -1,7 +1,6 @@
-colors=["red","blue"]
-colors.insert(0,"Indigo")
-print(colors)
-colors.append("Mercedes")
-print(colors)
-colors.extend(colors)
-print(colors)
+lenght=int(input("first side:"))
+breadth=int(input("second side:"))
+if lenght==breadth:
+    print("It is a square")
+else:
+    print("It is not a square")
