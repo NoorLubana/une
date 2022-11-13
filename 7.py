@@ -1,7 +1,6 @@
-colors=["red","blue","green"]
-colors.remove("red")
-print(colors)
-colors.pop(1)
-print(colors)
-colors.clear()
-print(colors)
+salary=int(input("Current Salary:"))
+years=int(input("Years working:"))
+if years>=5:
+    print("New salary is:",salary+1000)
+else:
+    print("New salary is:",salary)
