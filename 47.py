@@ -1,3 +1,12 @@
-colors=["red","blue","red","black"]
-colors[2]="green"
+colors=["red","blue","black","green"]
+colors[0:2]=["yellow","orange"]
+print(colors)
+colors.insert(2,"turtle")
+print(colors)
+colors.append("mercedes")
+print(colors)
+cars=["tata","bmw"]
+cars.extend(colors)
+print(cars)
+colors.remove("blue")
 print(colors)
