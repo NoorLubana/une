@@ -1,0 +1,12 @@
+colors=["red","blue","red","black"]
+colors[0:2]=["Yellow","Orange"]
+print(colors)
+colors.insert(2,"turtle")
+print(colors)
+colors.append("mercedes")
+print(colors)
+cars=["tata","bmw"]
+cars.extend(colors)
+print(cars)
+colors.pop(1)
+print(colors)
