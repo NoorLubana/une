@@ -64,9 +64,12 @@
 #   print("counter=", counter)
 #    counter=counter-1
 
-j=0
-for i in range(5):
-    j=j+2
-    print("i=", i,"j=",j)
-    if j==6:
-        break
+#j=0
+#for i in range(5):
+#    j=j+2
+#    print("i=", i,"j=",j)
+#    if j==6:
+#        break
+
+newstring="hello world".replace("world","universe")
+print(newstring)
