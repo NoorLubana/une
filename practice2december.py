@@ -47,6 +47,11 @@
 #for i in age:
 #    print(i)
 
-age={"peter":4,"gamora":7}
-for i,j in age.items():
-    print(i,j)
+#age={"peter":4,"gamora":7}
+#for i,j in age.items():
+#    print(i,j)
+
+message="hello"
+
+for i in message:
+    print(i)
