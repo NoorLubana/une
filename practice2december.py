@@ -39,6 +39,10 @@
 #for i in pets:
 #    print(i)
 
-pets=["cats","dogs","rabbits","hamsters"]
-for index,i in enumerate(pets):
-    print(index,i)
+#pets=["cats","dogs","rabbits","hamsters"]
+#for index,i in enumerate(pets):
+#    print(index,i)
+
+age={"peter":6,"john":8}
+for i in age:
+    print(i)
