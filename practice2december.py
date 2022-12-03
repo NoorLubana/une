@@ -43,6 +43,10 @@
 #for index,i in enumerate(pets):
 #    print(index,i)
 
-age={"peter":6,"john":8}
-for i in age:
-    print(i)
+#age={"peter":6,"john":8}
+#for i in age:
+#    print(i)
+
+age={"peter":4,"gamora":7}
+for i,j in age.items():
+    print(i,j)
