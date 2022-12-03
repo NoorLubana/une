@@ -51,7 +51,15 @@
 #for i,j in age.items():
 #    print(i,j)
 
-message="hello"
+#message="hello"
 
-for i in message:
-    print(i)
+#for i in message:
+#    print(i)
+
+#for i in range(5):
+#    print(i)
+
+counter=5
+while counter > 0:
+    print("counter=", counter)
+    counter=counter-1
