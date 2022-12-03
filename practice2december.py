@@ -59,7 +59,14 @@
 #for i in range(5):
 #    print(i)
 
-counter=5
-while counter > 0:
-    print("counter=", counter)
-    counter=counter-1
+#counter=5
+#while counter > 0:
+#   print("counter=", counter)
+#    counter=counter-1
+
+j=0
+for i in range(5):
+    j=j+2
+    print("i=", i,"j=",j)
+    if j==6:
+        break
