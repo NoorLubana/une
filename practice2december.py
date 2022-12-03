@@ -25,12 +25,20 @@
  #My name is James and
 # I am 20 years old.''')
 
-userinput= int(input("enter 1 or 2:"))
-if userinput==1:
-    print("hello world")
-    print("how are you")
-elif userinput==2:
-    print("python rocks")
-    print("I love python")
-else:
-    print("you did not enter a valid amount")
+#userinput= int(input("enter 1 or 2:"))
+#if userinput==1:
+#    print("hello world")
+#    print("how are you")
+#elif userinput==2:
+#   print("python rocks")
+#    print("I love python")
+#else:
+#    print("you did not enter a valid amount")
+
+#pets=["cats","dogs","rabbits","hamsters"]
+#for i in pets:
+#    print(i)
+
+pets=["cats","dogs","rabbits","hamsters"]
+for index,i in enumerate(pets):
+    print(index,i)
