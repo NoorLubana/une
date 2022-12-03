@@ -25,4 +25,12 @@
  #My name is James and
 # I am 20 years old.''')
 
-print('hello/tworld')
+userinput= int(input("enter 1 or 2:"))
+if userinput==1:
+    print("hello world")
+    print("how are you")
+elif userinput==2:
+    print("python rocks")
+    print("I love python")
+else:
+    print("you did not enter a valid amount")
